@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sol & Pele - Beleza de Verão o Ano Todo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fefcf8;
+      color: #5a4637;
+    }
+
+    header {
+      background-color: #f8eee2;
+      padding: 40px 20px;
+      background-image: url('https://via.placeholder.com/1200x300/fff1dd/ffffff?text=Beleza+de+Verão+o+Ano+Todo');
+      background-size: cover;
+      background-position: center;
+      color: #3e2f22;
+      text-align: center;
+      text-shadow: 1px 1px 2px rgba(255,255,255,0.6);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background-color: #f4e8d4;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: #7b5e42;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #b6864b;
+    }
+
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px;
+      background-color: #fff6ec;
+    }
+
+    .intro img {
+      max-width: 400px;
+      border-radius: 20px;
+      margin: 20px;
+    }
+
+    .intro-texto {
+      max-width: 500px;
+      margin: 20px;
+      text-align: left;
+    }
+
+    .intro-texto h2 {
+      color: #b67645;
+      font-size: 2em;
+    }
+
+    .intro-texto p {
+      font-style: italic;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .cuidados {
+      background-color: #fff8f2;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .cuidados h2 {
+      font-size: 2em;
+      color: #6e5039;
+      margin-bottom: 40px;
+    }
+
+    .grid-cuidados {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background-color: #fffdf8;
+      border: 1px solid #eee2d1;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 70px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin: 10px 0 8px;
+      color: #b67645;
+    }
+
+    .card p {
+      font-size: 0.95em;
+      color: #5a4637;
+      line-height: 1.4;
+    }
+
+    footer {
+      background-color: #f4e8d4;
+      color: #5a4637;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Beleza de Verão o Ano Todo</h1>
+    <p>Leveza, brilho e tons solares para qualquer estação</p>
+  </header>
+
+  <nav>
+    <a href="html1.html">Início</a>
+    <a href="html2.html">Coleções</a>
+    <a href="html3.html">Cuidados</a>
+    <a href="html4.html">Ano Todo</a>
+    <a href="html5.html">Filosofia</a>
+  </nav>
+
+  <section class="intro">
+    <img src="https://via.placeholder.com/400x400/ffe8d3/000000?text=Glow+Natural" alt="Glow Natural">
+    <div class="intro-texto">
+      <h2>Sol, cor e brilho natural</h2>
+      <p>Com texturas suaves e tons quentes, nossos produtos são pensados para manter sua pele iluminada e radiante — mesmo fora da estação. Sinta o verão em cada detalhe.</p>
+    </div>
+  </section>
+
+  <section class="cuidados">
+    <h2>Essenciais para o Look Solar</h2>
+    <div class="grid-cuidados">
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3259/3259783.png" alt="Bronzer">
+        <h3>Bronzer Areia Dourada</h3>
+        <p>Com pigmentos minerais e efeito aveludado, realça o contorno natural do rosto com um toque de sol.</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3633/3633365.png" alt="Iluminador">
+        <h3>Iluminador Luz Tropical</h3>
+        <p>Textura cremosa com brilho suave para destacar pontos estratégicos do rosto com naturalidade.</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/4206/4206326.png" alt="Balm">
+        <h3>Balm Solar com Cor</h3>
+        <p>Combina hidratação e cor suave nos lábios e bochechas. Perfeito para um visual fresh e prático.</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/4577/4577237.png" alt="Fixador">
+        <h3>Bruma Refrescante</h3>
+        <p>Fixador leve com toque refrescante de água de coco e aloe vera. Ideal para peles expostas ao sol.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Sol & Pele — Leve o verão com você o ano inteiro.
+  </footer>
+
+</body>
+</html>

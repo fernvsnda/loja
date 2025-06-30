@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sol & Pele - Cuidados com a Pele</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fefcf8;
+      color: #5a4637;
+    }
+
+    header {
+      background-color: #f8eee2;
+      padding: 40px 20px;
+      background-image: url('https://via.placeholder.com/1200x300/f5ede0/ffffff?text=Autocuidado+Natural');
+      background-size: cover;
+      background-position: center;
+      color: #3e2f22;
+      text-align: center;
+      text-shadow: 1px 1px 2px rgba(255,255,255,0.6);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background-color: #f4e8d4;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: #7b5e42;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #b6864b;
+    }
+
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px;
+      background-color: #f9f4ed;
+    }
+
+    .intro img {
+      max-width: 400px;
+      border-radius: 20px;
+      margin: 20px;
+    }
+
+    .intro-texto {
+      max-width: 500px;
+      margin: 20px;
+      text-align: left;
+    }
+
+    .intro-texto h2 {
+      color: #6e5039;
+      font-size: 2em;
+    }
+
+    .intro-texto p {
+      font-style: italic;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .cuidados {
+      background-color: #fff8f2;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .cuidados h2 {
+      font-size: 2em;
+      color: #6e5039;
+      margin-bottom: 40px;
+    }
+
+    .grid-cuidados {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background-color: #fffdf8;
+      border: 1px solid #eee2d1;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 70px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin: 10px 0 8px;
+      color: #7a563a;
+    }
+
+    .card p {
+      font-size: 0.95em;
+      color: #5a4637;
+      line-height: 1.4;
+    }
+
+    footer {
+      background-color: #f4e8d4;
+      color: #5a4637;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cuidados com a Pele</h1>
+    <p>Suavidade, hidratação e conexão com a sua essência</p>
+  </header>
+
+  <nav>
+    <a href="html1.html">Início</a>
+    <a href="html2.html">Coleções</a>
+    <a href="html3.html">Cuidados</a>
+    <a href="html4.html">Ano Todo</a>
+    <a href="html5.html">Filosofia</a>
+  </nav>
+  
+  <section class="intro">
+    <img src="https://via.placeholder.com/400x400/f2e1d5/000000?text=Rituais+Naturais" alt="Autocuidado natural">
+    <div class="intro-texto">
+      <h2>Seu ritual começa aqui</h2>
+      <p>Sabemos que uma maquiagem incrível começa com uma pele bem cuidada. Nossa linha de skincare foi pensada para acompanhar seu ritmo, com fórmulas naturais, texturas leves e resultados reais.</p>
+    </div>
+  </section>
+
+  <section class="cuidados">
+    <h2>Nossos Essenciais de Skincare</h2>
+    <div class="grid-cuidados">
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/4221/4221874.png" alt="Limpeza">
+        <h3>Limpeza Botânica</h3>
+        <p>Remove impurezas com suavidade usando ativos de chá verde, pepino e lavanda.</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/869/869869.png" alt="Hidratação">
+        <h3>Hidratação Leve</h3>
+        <p>Textura gel-creme, ideal para climas quentes. Fórmula com camomila e ácido hialurônico vegetal.</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2903/2903843.png" alt="Óleo nutritivo">
+        <h3>Óleo Iluminador</h3>
+        <p>Glow natural com blend de óleos prensados a frio. Use como primer ou finalizador.</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3643/3643183.png" alt="Proteção solar">
+        <h3>Proteção Solar Natural</h3>
+        <p>FPS 30 com filtro mineral, sem resíduos brancos e ideal para peles sensíveis.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Sol & Pele — Sua beleza começa com cuidado.
+  </footer>
+
+</body>
+</html>
